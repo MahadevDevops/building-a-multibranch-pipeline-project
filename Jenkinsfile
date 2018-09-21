@@ -6,10 +6,6 @@ pipeline {
         sh 'echo "Hello world!"'
       }
     }
-    stage('Test for Production') {
-      steps {
-        echo 'Hello from production'
-      }
-    }
+  
   }
 }
